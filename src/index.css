@@ -66,8 +66,8 @@ html {
 
 body {
   background: var(--backgroundColor);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   line-height: 1;
   color: var(--textColor);
@@ -136,7 +136,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: var(--primary-500);
+  background: #3bb4c1;
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -151,12 +151,12 @@ ul {
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
-  color: var(--primary-500);
-  background: var(--primary-200);
+  color: #ffff;
+  background: #3bb4c1;
 }
 .btn-hipster:hover {
-  color: var(--primary-200);
-  background: var(--primary-700);
+  color: #ffff;
+  background: #f09027;
 }
 .btn-block {
   width: 100%;
@@ -301,15 +301,15 @@ main {
   place-items: center;
   border-radius: 50%;
   transform: translateY(25%);
-  background-color: var(--primary-500);
+  background-color: #f09027;
   color: var(--white);
 }
 
 .img-container::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
-  background: var(--primary-500);
+  background: #f09027;
   position: absolute;
   border-radius: 50%;
   top: -0.25rem;
@@ -320,7 +320,7 @@ main {
 }
 .job {
   text-transform: uppercase;
-  color: var(--primary-500);
+  color: #f09027;
   font-size: 0.85rem;
   font-weight: 500;
   margin-bottom: 0.75rem;
@@ -337,7 +337,7 @@ main {
 }
 .prev-btn,
 .next-btn {
-  color: var(--primary-700);
+  color: #f09027;
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
@@ -347,5 +347,5 @@ main {
 }
 .prev-btn:hover,
 .next-btn:hover {
-  color: var(--primary-500);
+  color: #3bb4c1;
 }
